@@ -1,0 +1,174 @@
+.nav-tabs .nav-link {
+    color: red;
+    border: 2px solid black; /* Change tab link color to red */
+}
+.nav-tabs .nav-link.active {
+    background-color: #171716; /* Optional: Change background of active tab */
+    color: red;
+    border: 2px solid black; /* Ensure active tab text color is also red */
+}
+.text {
+    color: rgb(15, 14, 13); /* Change link color to gold */
+    font-weight: bold; /* Make the links bold */
+}
+.btn-danger {
+    background-color: #b22222; /* Blood red */
+    border: none; /* Remove border */
+}
+.note-box {
+    background-color: #f8d7da; /* Light red background for notes */
+}
+.curly-font {
+    font-family: 'Cursive'; /* Use a cursive font */
+    font-size: 1.2rem; /* Optional: Adjust font size */
+}
+body {
+    font-family: 'Zilla Slab', serif;
+    background-color: #000000; /* Black background */
+    color: #fff; /* White text for contrast */
+}
+
+h1 {
+    color: #D32F2F; /* Red color for the header */
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #e0e0e0; /* Light grey text for readability */
+}
+
+.links {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: #D32F2F; /* Red color for links */
+    margin-right: 20px;
+    font-size: 22px;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #ff6666; /* Lighter red on hover */
+}
+
+.links i {
+    margin-right: 10px;
+}
+
+/* Form container */
+form {
+    background-color: #333; /* Dark gray background for the form */
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #D32F2F; /* Red border */
+}
+
+form h3 {
+    color: #D32F2F;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    color: #fff;
+    font-size: 16px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    background-color: #555;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #D32F2F;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6666;
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .links a {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+/* General blog entry styling with black and red theme */
+.blog-entry {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for the box */
+    border-radius: 8px;
+    border: 2px solid #cc0000; /* Red border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6), 0 0 20px rgba(204, 0, 0, 0.5); /* Red shadow effect */
+}
+
+/* Title styling with white and red theme */
+.blog-title {
+    font-size: 2.5rem;
+    color: #fff; /* White text */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Date styling with lighter red */
+.blog-date {
+    font-size: 1rem;
+    color: #ff6666; /* Lighter red for the date */
+    margin-bottom: 20px;
+}
+
+/* Blog content styling with white text */
+.blog-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ddd; /* Lighter grey for content text */
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Optional: Add some responsive design */
+@media (max-width: 768px) {
+    .blog-entry {
+        padding: 15px;
+    }
+    .blog-title {
+        font-size: 2rem;
+    }
+    .blog-content {
+        font-size: 1rem;
+    }
+}
